@@ -7,23 +7,33 @@
   <title>Spreadsheet App</title>
 </head>
 <body>
-  <h1>Spreadsheet App</h1>
-  <div id="spreadsheet-container">
-    <table id="spreadsheet">
-      <thead>
-        <tr>
-          <th>Column 1</th>
-          <th>Column 2</th>
-          <th>Column 3</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Rows will be dynamically added -->
-      </tbody>
-    </table>
-    <button id="add-row">Add Row</button>
-    <button id="save-data">Save Data</button>
-  </div>
+  <header>
+    <h1>📝 Spreadsheet App</h1>
+  </header>
+  <main>
+    <div id="spreadsheet-container">
+      <table id="spreadsheet">
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Dynamic rows will appear here -->
+        </tbody>
+      </table>
+      <div class="controls">
+        <button id="add-row">➕ Add Row</button>
+        <button id="save-data">💾 Save Data</button>
+        <button id="reset-table">🗑️ Reset Table</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Created with ❤️ by MasLannn</p>
+  </footer>
   <script src="script.js"></script>
 </body>
 </html>
